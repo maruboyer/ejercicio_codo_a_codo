@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="STYLESHEET" href="estilos.css">
+    <title>Actividad obligatoria JavaScript - Unidad 3</title>
+
+</head>
+<body>
+    <div>
+        <h3>Ingreso al Sistema</h3>
+        <br>
+        <form name="test" action="datosForm.txt" method="GET">
+            <table>
+                <tr>
+                    <td>Usuario:</td>
+                    <td><input type="text" name="usuario" placeholder="Usu@rio"></td>
+                </tr>
+                <tr>
+                    <td>Clave: </td>
+                    <td>
+                        <input type="password" name="clave" id="clave">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <input type="reset" name="reset" value="Ingresar" onclick="validar(this.form);">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="../UNIDAD 3/control.js" ></script>
+</body>
+</html>
